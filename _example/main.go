@@ -1,24 +1,3 @@
-# spotify-playing-stream
-
-spotify-playing-stream is a GO library for polling the currently-playing API on Spotify.
-
-## Requires
-
-Go 1.14+
-
-## Depends
-
-github.com/zmb3/spotify
-
-## Usage
-
-```go
-import "github.com/vvatanabe/spotify-playing-stream/stream"
-```
-
-## Example
-
-```go
 package main
 
 import (
@@ -78,20 +57,3 @@ func main() {
 	}
 	log.Println("completed graceful shutdown")
 }
-```
-
-## Acknowledgments
-
-Inspired by [net/http](https://golang.org/pkg/net/http/)
-
-## Bugs and Feedback
-
-For bugs, questions and discussions please use the Github Issues.
-
-## License
-
-[MIT License](http://www.opensource.org/licenses/mit-license.php)
-
-## Author
-
-[vvatanabe](https://github.com/vvatanabe)
